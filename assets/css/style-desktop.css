@@ -1,0 +1,167 @@
+/* Your styles here */
+
+/* IMPOSTAZIONI GENERALI */
+
+body{
+    width: 100%;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+}
+
+img {
+    width: 100%;
+}
+
+/* HEADER */
+
+#header-logo {
+    background-color: black;
+    padding: 1.5em 3em;
+    text-align: start;
+}
+
+#logo {
+    width: 10%;
+}
+
+#header-content {
+    background-image: url(../images/banner.jpg);
+    padding: 11.3em 20em;
+}
+
+header h1 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1;
+    color: #25a2c3;
+    font-size: 2em;
+}
+
+header p{
+    font-size: 1.2em;
+    padding: 1em 5em;
+}
+
+button {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 1em 2em;
+    margin: 1em;
+    background-color: #e04929;
+    border-radius: 0.25em;
+    border-width: 0;
+    font-size: 1em;
+}
+/* MAIN */
+
+.article-content h2:nth-of-type(1) {
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #25a2c3;
+}
+
+article {
+    padding: 8em 13em;
+}
+
+article td{
+    vertical-align: middle;
+    text-align: left;
+}
+
+article table tr td:nth-of-type(2){
+    padding-left: 5em;
+}
+
+#notebook {
+    border-radius: 50%;
+    margin-top: 1em;
+    width: 30em;
+}
+
+#orange-article {
+    padding: 5em;
+    color: white;
+    background-color: #d73121;
+}
+
+#orange-article h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0 0 1em 0;
+}
+
+#orange-article p:nth-of-type(1){
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#orange-article p:nth-of-type(2){
+    padding: 1em 0 0 0;
+}
+#orange-article p:nth-of-type(3){
+    font-size: 0.7em;
+}
+
+/* CARDS */
+
+ #cards{
+    padding: 5em 8em;
+}
+
+.single-card{
+    border:#e3e3e3 solid 1px;
+    width: 30%;
+    display: inline-block;
+}
+
+
+.single-card p:nth-of-type(1){
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #25a2c3;
+    padding: 0.5em 0 0 0;
+}
+
+.single-card p:nth-of-type(2){
+    font-size: 0.9em;
+    padding: 0 2em 2em 2em;
+} 
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+
+footer  h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 1em 0;
+}
+
+footer a, footer span {
+    color: #c8e7f0;
+}
+
+hr {
+    width: 15%;
+    margin: 2em auto;
+}
+
+#copyright {
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
